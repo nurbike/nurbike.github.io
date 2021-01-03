@@ -4,21 +4,18 @@
     <title>Nurbike's Portfolio</title>
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./style-light.css" />
-    <link rel="stylesheet" href="./style-dark.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <script src="./script.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap"
       rel="stylesheet"
     />
-    <script
-      src="https://kit.fontawesome.com/7316b966ac.js"
-      crossorigin="anonymous"
-    ></script>
   </head>
   <body>
     <div id="root">
       <div class="navbar">
         <div id="logo"><img src="./image/logo.png" /></div>
+        <button id="switch-button" onclick="switchTheme()">Dark Mode</button>
       </div>
       <div class="content">
         <div>
@@ -32,15 +29,17 @@
           </div>
           <p class="portfolio-title">Portfolio</p>
           <div class="portfolio">
-            <div class="project-image">
-              <a
-                href="https://nurbike.github.io/js-calculator/"
-                target="_blank"
-              >
-                <img src="./image/calculator-blue-01.jpg" />
-              </a>
-              <div class="project-description">
-                The calculator which calculates four operations.
+            <div class="project">
+              <div class="project-image">
+                <a
+                  href="https://nurbike.github.io/js-calculator/"
+                  target="_blank"
+                >
+                  <img src="./image/calculator-blue-01.jpg" />
+                </a>
+                <div class="project-description">
+                  The calculator which calculates four operations.
+                </div>
               </div>
             </div>
             <div class="project-image">
@@ -48,8 +47,10 @@
                 <img src="./image/eksi-green-01.jpg" />
               </a>
               <div class="project-description">
-                The realistic responsive copy of
-                <a href="eksisozluk.com">Ekşi Sözlük</a>.
+                <div>
+                  The realistic responsive copy of
+                  <a href="eksisozluk.com">Ekşi Sözlük</a>.
+                </div>
               </div>
             </div>
             <div class="project-image">
@@ -63,7 +64,7 @@
             </div>
             <div class="project-image">
               <a href="https://nurbike0.myportfolio.com/" target="_blank">
-                <img src="./image/login-pink-01.jpg" />
+                <img src="./image/portfolyo-01.jpg" />
               </a>
               <div class="project-description">
                 You can find my graphic design projects over here.
@@ -78,34 +79,6 @@
                 worked in agencies as a designer but my new passion is designing
                 web sites and apps.
               </p>
-              <!-- <p>What I am capable of:</p>
-            <div class="icons">
-              <div class="icons-left">
-                <div class="icon-text">
-                  <i class="fas fa-pencil-ruler"></i>
-                  <p class="skill">Logo Design</p>
-                </div>
-                <div class="icon-text">
-                  <i class="fas fa-pencil-alt"></i>
-                  <p class="skill">Illustration</p>
-                </div>
-                <div class="icon-text">
-                  <i class="fas fa-address-card"></i>
-                  <p class="skill">Branding</p>
-                </div>
-              </div>
-
-              <div class="icons-right">
-                <div class="icon-text">
-                  <i class="fas fa-laptop-code"></i>
-                  <p class="skill">Web Design</p>
-                </div>
-                <div class="icon-text">
-                  <i class="fas fa-phone-laptop"></i>
-                  <p class="skill">App Design</p>
-                </div>
-              </div>
-            </div>-->
             </div>
             <div class="contact">
               <p class="portfolio-title">Contact</p>

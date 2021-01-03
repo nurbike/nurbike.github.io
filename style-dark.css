@@ -1,0 +1,44 @@
+#root {
+  background-image: url("file:///D:/web-design-nurbike/nurbike.github.io/image/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("file:///D:/web-design-nurbike/nurbike.github.io/image/background.jpg");
+}
+
+.header {
+  color: #7a7775;
+}
+
+.portfolio-title {
+  color: #7a7775;
+}
+
+.project-image {
+  border-color: #7a7775;
+}
+
+.project-description {
+  background: #7a7775;
+  color: #d3d3d3;
+}
+.about-me {
+  color: #7a7775;
+}
+
+a:link {
+  color: #d3d3d3;
+}
+
+a:visited {
+  color: #7a7775;
+}
+
+.contact {
+  color: #7a7775;
+}

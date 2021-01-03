@@ -1,5 +1,30 @@
 .header {
+  color: white;
+}
 
-    color: white;
-    
-  }
+.portfolio-title {
+  color: white;
+}
+
+.project-image {
+  border-color: white;
+}
+
+.project-description {
+  background: white;
+}
+.about-me {
+  color: white;
+}
+
+a:link {
+  color: gray;
+}
+
+a:visited {
+  color: white;
+}
+
+.contact {
+  color: white;
+}

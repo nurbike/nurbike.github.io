@@ -19,6 +19,16 @@ body {
   width: 80%;
   margin: 0 auto 0 auto;
   padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#switch-button {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .content {
@@ -44,9 +54,8 @@ body {
 }
 
 .portfolio-title {
- margin: 80px 0 30px 0;
+  margin: 80px 0 30px 0;
   font-size: 40px;
-  color: white;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
 }
@@ -75,63 +84,31 @@ img {
   height: auto;
 }
 
-.project-image {
-  border: solid;
-  border-color: white;
-  border-width: 10px;
+.project-image:hover {
+  opacity: 0.9;
+  transition: 0.2s;
 }
 
 .project-description {
-  padding: 2px 0 0 8px;
-  background: white;
+  display: flex;
+  padding: 0 8px 0 8px;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
-  line-height: 300%:
+  line-height: 30px;
+  min-height: 110px;
+  align-items: center;
 }
 
 .body-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 100px auto 0 auto;
+  margin: 50px auto 0 auto;
 }
 
 .about-me {
   font-size: 30px;
-  color: white;
   font-family: "Montserrat", sans-serif;
-  padding: 5px 20px;
-}
-
-a:link {
-  color: gray;
-}
-
-a:visited {
-  color: white;
 }
 
 .contact {
   font-size: 30px;
-  color: white;
   font-family: "Montserrat", sans-serif;
-  padding: 5px 20px;
-  margin: 50px 0;
-}
-
-.skill {
-}
-
-.icons {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.icon-text {
-  display: flex;
-}
-
-i {
-  font-size: 80px;
-  margin: 20px 20px;
 }
