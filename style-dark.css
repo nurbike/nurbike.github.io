@@ -11,6 +11,9 @@
     url("file:///D:/web-design-nurbike/nurbike.github.io/image/background.jpg");
 }
 
+#logo {
+  opacity: 0.7;
+}
 .header {
   color: #7a7775;
 }
@@ -21,6 +24,7 @@
 
 .project-image {
   border-color: #7a7775;
+  opacity: 0.8;
 }
 
 .project-description {
