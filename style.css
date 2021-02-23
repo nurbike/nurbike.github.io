@@ -3,7 +3,7 @@ body {
 }
 
 #root {
-  background-image: url("file:///D:/web-design-nurbike/nurbike.github.io/image/background.jpg");
+  background-image: url("./image/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -12,7 +12,7 @@ body {
       rgba(0, 0, 0, 0.5) 0%,
       rgba(0, 0, 0, 1) 100%
     ),
-    url("file:///D:/web-design-nurbike/nurbike.github.io/image/background.jpg");
+    url("./image/background.jpg");
 }
 
 .navbar {
